@@ -1,5 +1,5 @@
-import Navbar from '../components/Navbar';
 import { motion } from 'framer-motion';
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -30,7 +30,7 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
           >
-            Hi, I'm Sheham, an aspiring Software Developer.
+            Hi, I&aposm Sheham, an aspiring Software Developer.
           </motion.h1>
 
           {/* Animated p */}
@@ -53,7 +53,7 @@ export default function Home() {
 >
   {/* About Button */}
   <div>
-    <a href="/about">
+    <Link href="/about">
       <button className="w-64 px-8 py-4 bg-blue-500 text-white font-semibold rounded-md shadow-lg hover:bg-blue-600 transition duration-300 flex items-center justify-center space-x-2">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -71,13 +71,13 @@ export default function Home() {
         </svg>
         <span>About</span>
       </button>
-    </a>
+    </Link>
     <p className="text-gray-400 mt-2">Learn more about me</p>
   </div>
 
   {/* Projects Button */}
   <div>
-    <a href="/projects">
+    <Link href="/projects">
       <button className="w-64 px-8 py-4 bg-green-500 text-white font-semibold rounded-md shadow-lg hover:bg-green-600 transition duration-300 flex items-center justify-center space-x-2">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -95,13 +95,13 @@ export default function Home() {
         </svg>
         <span>Projects</span>
       </button>
-    </a>
+    </Link>
     <p className="text-gray-400 mt-2">Explore my work</p>
   </div>
 
   {/* Contact Button */}
   <div>
-    <a href="/contact">
+    <Link href="/contact">
       <button className="w-64 px-8 py-4 bg-red-500 text-white font-semibold rounded-md shadow-lg hover:bg-red-600 transition duration-300 flex items-center justify-center space-x-2">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -119,7 +119,7 @@ export default function Home() {
         </svg>
         <span>Contact</span>
       </button>
-    </a>
+    </Link>
     <p className="text-gray-400 mt-2">Let’s connect!</p>
   </div>
 </motion.div>

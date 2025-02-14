@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Navbar from '../components/Navbar';
 import { motion } from 'framer-motion';
 
@@ -804,11 +805,11 @@ initial={{ opacity: 0, y: 50 }}
 animate={{ opacity: 1, y: 0 }}
 transition={{ duration: 1, delay: 1.5 }}
 >
-<a href="/contact">
+<Link href="/contact">
 <button className="px-6 py-3 bg-blue-500 text-white font-semibold rounded-md hover:bg-blue-600 transition duration-300">
   Let’s Connect!
 </button>
-</a>
+</Link>
 </motion.div>
 </div>
 </div>
