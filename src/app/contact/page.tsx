@@ -1,5 +1,5 @@
-// pages/contact.tsx
-import Navbar from '../components/Navbar';
+"use client"
+import Navbar from '../../components/Navbar';
 import { useState } from 'react';
 
 const Contact = () => {
@@ -24,7 +24,7 @@ const Contact = () => {
 
   return (
     <div>
-      <Navbar />
+      
       <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white">
         <h1 className="text-4xl font-bold">Contact Me</h1>
         <form onSubmit={handleSubmit} className="mt-8 w-full max-w-md space-y-6">

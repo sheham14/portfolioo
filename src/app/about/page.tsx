@@ -1,12 +1,13 @@
+"use client"
 import Link from 'next/link';
-import Navbar from '../components/Navbar';
+import Navbar from '../../components/Navbar';
 import { motion } from 'framer-motion';
 
 export default function About() {
   return (
     <div>
-      {/* Navbar */}
-      <Navbar />
+
+      
 
       {/* Main Content */}
       <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white pt-20">
@@ -17,7 +18,7 @@ export default function About() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          About Me
+          About Mee
         </motion.h1>
 
         {/* Two-Column Layout */}

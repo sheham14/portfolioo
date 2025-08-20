@@ -1,10 +1,11 @@
 // pages/projects.tsx
-import Navbar from '../components/Navbar';
+"use client"
+import Navbar from '../../components/Navbar';
 
 export default function Projects() {
   return (
     <div>
-      <Navbar />
+
       <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white">
         <h1 className="text-4xl font-bold">My Projects</h1>
         <div className="mt-8 space-y-6">

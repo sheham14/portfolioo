@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="bg-black text-white p-4 fixed top-0 w-full z-50">
+    <nav className="bg-black text-white p-4 w-full">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         {/* Left Section: Logo */}
         <div>
