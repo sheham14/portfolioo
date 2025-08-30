@@ -18,7 +18,7 @@ export default function About() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          About Mee
+          About Me
         </motion.h1>
 
         {/* Two-Column Layout */}
@@ -31,46 +31,24 @@ export default function About() {
             transition={{ duration: 1, delay: 0.5 }}
           >
             <div className="flex items-center space-x-4">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6 text-blue-500"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
-                />
-              </svg>
+
               <div>
                 <h3 className="text-xl font-semibold">Who Am I?</h3>
                 <p className="text-gray-400">
-                  I’m Sheham, an aspiring Software Developer passionate about building innovative solutions and solving real-world problems with code.
+                    I’m a software developer who focuses on solving problems effectively, continuously improving, 
+                    and adapting quickly to new challenges. 
+                    I thrive in dynamic environments where I can contribute, learn, and grow.
                 </p>
               </div>
             </div>
-            <div className="flex items-center space-x-4">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6 text-blue-500"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253"
-                />
-              </svg>
+            <div className="flex items-start space-x-4">
+              
               <div>
                 <h3 className="text-xl font-semibold">Education</h3>
                 <p className="text-gray-400">
-                  Currently pursuing a B.Sc. in Computer Science at [University Name]. Relevant coursework includes Python, JavaScript, and Machine Learning.
+                    As a recent Software Development graduate from the College of the North Atlantic, 
+                    I’ve spent the past three years building my skills through coursework and practical work terms. 
+                    I’m now excited to apply what I’ve learned and grow further as part of a collaborative team.
                 </p>
               </div>
             </div>
@@ -84,7 +62,7 @@ export default function About() {
             transition={{ duration: 1, delay: 0.5 }}
           >
             <img
-              src="/profile.jpg" // Replace with your image path
+              src="/headshot.png" // Replace with your image path
               alt="Profile"
               className="w-64 h-64 rounded-full object-cover border-4 border-blue-500 shadow-lg transition-transform duration-300 hover:scale-105"
             />
@@ -120,8 +98,10 @@ export default function About() {
         <span className="text-lg font-medium text-white">Java</span>
       </summary>
       <div className="mt-2 text-gray-400">
-        <p>Where I Learned It: [Fill in details]</p>
-        <p>How I Implemented It: [Fill in details]</p>
+        <p>
+            Built backend services and APIs using Java. 
+            Capstone project includes a backend controller using Sping Boot
+        </p>
       </div>
     </details>
 
@@ -145,8 +125,11 @@ export default function About() {
         <span className="text-lg font-medium text-white">JavaScript</span>
       </summary>
       <div className="mt-2 text-gray-400">
-        <p>Where I Learned It: [Fill in details]</p>
-        <p>How I Implemented It: [Fill in details]</p>
+        <p>
+            Used JavaScript for frontend interactivity and dynamic web functionality in multiple projects, 
+            including form handling, asynchronous API calls, and DOM manipulation.
+        </p>
+
       </div>
     </details>
 
@@ -170,8 +153,11 @@ export default function About() {
         <span className="text-lg font-medium text-white">Python</span>
       </summary>
       <div className="mt-2 text-gray-400">
-        <p>Where I Learned It: [Fill in details]</p>
-        <p>How I Implemented It: [Fill in details]</p>
+        <p>
+            Developed data processing scripts and inventory tools in addition 
+            to using machine learning modules like Scikit and PyTorch
+        </p>
+
       </div>
     </details>
 
@@ -195,8 +181,10 @@ export default function About() {
         <span className="text-lg font-medium text-white">HTML</span>
       </summary>
       <div className="mt-2 text-gray-400">
-        <p>Where I Learned It: [Fill in details]</p>
-        <p>How I Implemented It: [Fill in details]</p>
+        <p>
+            Structured web pages and components with semantic HTML,
+            ensuring accessibility and clean markup across portfolio and class projects.
+        </p>
       </div>
     </details>
 
@@ -220,8 +208,10 @@ export default function About() {
         <span className="text-lg font-medium text-white">CSS</span>
       </summary>
       <div className="mt-2 text-gray-400">
-        <p>Where I Learned It: [Fill in details]</p>
-        <p>How I Implemented It: [Fill in details]</p>
+        <p>
+            Styled web applications and responsive layouts using CSS, incorporating animations, 
+            grids, and flexbox for polished user interfaces.
+        </p>
       </div>
     </details>
 
@@ -245,8 +235,10 @@ export default function About() {
         <span className="text-lg font-medium text-white">React</span>
       </summary>
       <div className="mt-2 text-gray-400">
-        <p>Where I Learned It: [Fill in details]</p>
-        <p>How I Implemented It: [Fill in details]</p>
+        <p>
+            Built interactive single-page applications using React, managing state with hooks, 
+            handling API calls, and creating reusable UI components.
+        </p>      
       </div>
     </details>
 
@@ -270,8 +262,9 @@ export default function About() {
         <span className="text-lg font-medium text-white">Next.js</span>
       </summary>
       <div className="mt-2 text-gray-400">
-        <p>Where I Learned It: [Fill in details]</p>
-        <p>How I Implemented It: [Fill in details]</p>
+        <p>
+            This website was built using Next.js. Hope you liked it!
+        </p>
       </div>
     </details>
 
@@ -295,8 +288,11 @@ export default function About() {
         <span className="text-lg font-medium text-white">Angular</span>
       </summary>
       <div className="mt-2 text-gray-400">
-        <p>Where I Learned It: [Fill in details]</p>
-        <p>How I Implemented It: [Fill in details]</p>
+        <p>
+            Built component-based frontends for web applications using Angular, 
+            leveraging two-way data binding, services, and reactive forms.
+            I learned Angular during my work term at PAL Aerospace.
+        </p>
       </div>
     </details>
 
@@ -320,8 +316,10 @@ export default function About() {
         <span className="text-lg font-medium text-white">SQL</span>
       </summary>
       <div className="mt-2 text-gray-400">
-        <p>Where I Learned It: [Fill in details]</p>
-        <p>How I Implemented It: [Fill in details]</p>
+        <p>
+            Designed and queried relational databases using SQL, writing complex queries for data retrieval, 
+            aggregation, and maintaining relational integrity.
+        </p>
       </div>
     </details>
 
@@ -345,8 +343,10 @@ export default function About() {
         <span className="text-lg font-medium text-white">APIs</span>
       </summary>
       <div className="mt-2 text-gray-400">
-        <p>Where I Learned It: [Fill in details]</p>
-        <p>How I Implemented It: [Fill in details]</p>
+        <p>
+            Integrated REST APIs in both frontend and backend projects, handling authentication, data exchange,
+            and third-party service integration.
+        </p>
       </div>
     </details>
 
@@ -370,8 +370,10 @@ export default function About() {
         <span className="text-lg font-medium text-white">AWS</span>
       </summary>
       <div className="mt-2 text-gray-400">
-        <p>Where I Learned It: [Fill in details]</p>
-        <p>How I Implemented It: [Fill in details]</p>
+        <p>
+            Deployed applications on AWS, including EC2-hosted backends, RDS databases, 
+            and Amplify-hosted frontends, ensuring connectivity, security, and scalability.
+        </p>
       </div>
     </details>
 
@@ -395,8 +397,9 @@ export default function About() {
         <span className="text-lg font-medium text-white">Tailwind CSS</span>
       </summary>
       <div className="mt-2 text-gray-400">
-        <p>Where I Learned It: [Fill in details]</p>
-        <p>How I Implemented It: [Fill in details]</p>
+        <p>
+            This site was made with TailWind. Hope you liked it!
+        </p>
       </div>
     </details>
 
@@ -420,8 +423,11 @@ export default function About() {
         <span className="text-lg font-medium text-white">Java Spring</span>
       </summary>
       <div className="mt-2 text-gray-400">
-        <p>Where I Learned It: [Fill in details]</p>
-        <p>How I Implemented It: [Fill in details]</p>
+        <p>
+            Developed RESTful backend services using Java Spring, implementing controllers, services, 
+            and repositories with database connectivity and authentication.
+            I built my capstone project API using Spring Boot. 
+        </p>
       </div>
     </details>
 
@@ -445,8 +451,11 @@ export default function About() {
         <span className="text-lg font-medium text-white">Express</span>
       </summary>
       <div className="mt-2 text-gray-400">
-        <p>Where I Learned It: [Fill in details]</p>
-        <p>How I Implemented It: [Fill in details]</p>
+        <p>
+            Built backend APIs using Express.js, handling routing, middleware,
+            and database interactions for full-stack applications. 
+            Most of my JavaScript projects were built using Express.
+        </p>
       </div>
     </details>
 
@@ -470,8 +479,10 @@ export default function About() {
         <span className="text-lg font-medium text-white">Node.js</span>
       </summary>
       <div className="mt-2 text-gray-400">
-        <p>Where I Learned It: [Fill in details]</p>
-        <p>How I Implemented It: [Fill in details]</p>
+        <p>
+            Implemented server-side logic with Node.js, managing asynchronous operations, 
+            file handling, and API endpoints in multiple projects. Almost all of my projects used Node.js.
+        </p>  
       </div>
     </details>
 
@@ -495,8 +506,9 @@ export default function About() {
         <span className="text-lg font-medium text-white">MongoDB</span>
       </summary>
       <div className="mt-2 text-gray-400">
-        <p>Where I Learned It: [Fill in details]</p>
-        <p>How I Implemented It: [Fill in details]</p>
+        <p>
+            Modeled and queried NoSQL databases with MongoDB, storing application data efficiently and performing aggregation and indexing.
+        </p>
       </div>
     </details>
 
@@ -520,8 +532,10 @@ export default function About() {
         <span className="text-lg font-medium text-white">ORMs</span>
       </summary>
       <div className="mt-2 text-gray-400">
-        <p>Where I Learned It: [Fill in details]</p>
-        <p>How I Implemented It: [Fill in details]</p>
+        <p>
+            Used Object-Relational Mapping tools like Hibernate and Sequelize 
+            to map application objects to relational databases, simplifying data persistence.
+        </p>
       </div>
     </details>
 
@@ -545,8 +559,10 @@ export default function About() {
         <span className="text-lg font-medium text-white">Git</span>
       </summary>
       <div className="mt-2 text-gray-400">
-        <p>Where I Learned It: [Fill in details]</p>
-        <p>How I Implemented It: [Fill in details]</p>
+        <p>
+            Managed source code using Git, implementing version control, branching, merging, 
+            and collaborative workflows during team projects.
+        </p>
       </div>
     </details>
   </div>
