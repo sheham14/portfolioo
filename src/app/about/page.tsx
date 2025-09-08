@@ -597,8 +597,8 @@ export default function About() {
                 <span className="text-lg font-medium text-white">Adaptable</span>
               </summary>
               <div className="mt-2 text-gray-400">
-                <p>Where I Developed It: [Fill in details]</p>
-                <p>How I Use It: [Fill in details]</p>
+                <p>I realized during my work terms that I could learn new frameworks and software quickly. 
+                    Especially during my time at PAL Aerospace where I had to learn Angular which was one of the hardest frameworks to work with.</p>
               </div>
             </details>
 
@@ -622,8 +622,10 @@ export default function About() {
                 <span className="text-lg font-medium text-white">Organized</span>
               </summary>
               <div className="mt-2 text-gray-400">
-                <p>Where I Developed It: [Fill in details]</p>
-                <p>How I Use It: [Fill in details]</p>
+                <p>Being organized has helped me always complete my projects on time and be a reliable teammate. 
+                    Whether its an in-class group project or my part-time job as a supervisor, 
+                    I ensure my work is presentable and readable for others.  </p>
+               
               </div>
               </details>
 
@@ -647,8 +649,8 @@ export default function About() {
     <span className="text-lg font-medium text-white">Able to Work in Teams and Independently</span>
   </summary>
   <div className="mt-2 text-gray-400">
-    <p>Where I Developed It: [Fill in details]</p>
-    <p>How I Use It: [Fill in details]</p>
+    <p>I was fortunate enough to be able to work in both formats of projects and understand my strentgths ands weaknesses. 
+        Doing multiple projects of each type has helped me amend my shortcomings.</p>
   </div>
 </details>
 
@@ -672,33 +674,7 @@ export default function About() {
     <span className="text-lg font-medium text-white">Verbal and Written Communication</span>
   </summary>
   <div className="mt-2 text-gray-400">
-    <p>Where I Developed It: [Fill in details]</p>
-    <p>How I Use It: [Fill in details]</p>
-  </div>
-</details>
-
-{/* Curious */}
-<details className="group bg-gray-800 p-4 rounded-lg shadow-md flex items-center space-x-4 cursor-pointer">
-  <summary className="flex items-center space-x-4">
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      className="h-6 w-6 text-indigo-500"
-      fill="none"
-      viewBox="0 0 24 24"
-      stroke="currentColor"
-    >
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth={2}
-        d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2z"
-      />
-    </svg>
-    <span className="text-lg font-medium text-white">Curious</span>
-  </summary>
-  <div className="mt-2 text-gray-400">
-    <p>Where I Developed It: [Fill in details]</p>
-    <p>How I Use It: [Fill in details]</p>
+    <p>Although I was extremely introverted at first, working on team projects more often and working a retail job has helped me become a proficient communicator.</p>
   </div>
 </details>
 </div>
@@ -733,8 +709,7 @@ transition={{ duration: 1, delay: 1 }}
     <span className="text-lg font-medium text-white">Sports</span>
   </summary>
   <div className="mt-2 text-gray-400">
-    <p>Why I Enjoy It: [Fill in details]</p>
-    <p>Notable Experience: [Fill in details]</p>
+    <p>I enjoy playing a variety of sports such as soccer, cricket, and badminton.</p>
   </div>
 </details>
 
@@ -758,8 +733,8 @@ transition={{ duration: 1, delay: 1 }}
     <span className="text-lg font-medium text-white">Hiking</span>
   </summary>
   <div className="mt-2 text-gray-400">
-    <p>Why I Enjoy It: [Fill in details]</p>
-    <p>Notable Experience: [Fill in details]</p>
+    <p>I fell in love with hiking after coming to Canada. It is impossible not to go on hikes with such beautful trails in Newfoundland.
+         I wish the summers were longer so i could hike more.</p>
   </div>
 </details>
 
@@ -783,8 +758,7 @@ transition={{ duration: 1, delay: 1 }}
     <span className="text-lg font-medium text-white">Working Out</span>
   </summary>
   <div className="mt-2 text-gray-400">
-    <p>Why I Enjoy It: [Fill in details]</p>
-    <p>Notable Experience: [Fill in details]</p>
+    <p>I have been a fitness enthusiast since high-school. Starting my mornings at the gym keeps me fresh throughout the day.</p>
   </div>
 </details>
 
@@ -808,8 +782,9 @@ transition={{ duration: 1, delay: 1 }}
     <span className="text-lg font-medium text-white">Gaming</span>
   </summary>
   <div className="mt-2 text-gray-400">
-    <p>Why I Enjoy It: [Fill in details]</p>
-    <p>Notable Experience: [Fill in details]</p>
+    <p>I used to be an avid gamer during my teens. Although work and academics have kept me busy mostly, 
+        I still enjoy an occasional gaming session to take a break from the hustle.</p>
+
   </div>
 </details>
 </div>
