@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from 'react';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -16,11 +17,24 @@ const Contact = () => {
     });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Here you would typically send the form data to an API or email service
-    console.log('Form submitted:', formData);
-  };
+const handleSubmit = (e: React.FormEvent) => {
+  e.preventDefault();
+
+  emailjs.send(
+    'service_s6c79um',
+    'template_rps4yn9',
+    formData,
+    'l5UQYHgy_WmHqxhvM'
+  )
+  .then(() => {
+    alert('Message sent successfully!');
+    setFormData({ name: '', email: '', message: '' });
+  })
+  .catch((error) => {
+    console.error('Error sending message:', error);
+    alert('Failed to send message. Please try again later.');
+  });
+};
 
   return (
     <div>
