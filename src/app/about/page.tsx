@@ -649,7 +649,7 @@ export default function About() {
     <span className="text-lg font-medium text-white">Able to Work in Teams and Independently</span>
   </summary>
   <div className="mt-2 text-gray-400">
-    <p>I was fortunate enough to be able to work in both formats of projects and understand my strentgths ands weaknesses. 
+    <p>I was fortunate enough to be able to work in both formats of projects and understand my strengths and weaknesses. 
         Doing multiple projects of each type has helped me amend my shortcomings.</p>
   </div>
 </details>
@@ -734,7 +734,7 @@ transition={{ duration: 1, delay: 1 }}
   </summary>
   <div className="mt-2 text-gray-400">
     <p>I fell in love with hiking after coming to Canada. It is impossible not to go on hikes with such beautful trails in Newfoundland.
-         I wish the summers were longer so i could hike more.</p>
+         I wish the summers here were longer so I could hike more.</p>
   </div>
 </details>
 
